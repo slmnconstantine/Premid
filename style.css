@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Paytone+One&family=Rhodium+Libre&family=Righteous&display=swap');
+body{
+    background-image: url(images/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no repeat;
+    margin:0;
+    padding:0;
+}
+.header {
+    background: #B09464;
+    padding: 5px;
+}
+.title{
+    display: inline;
+}
+.title > h1{
+    display: inline;
+    font-size: 50px;
+    margin-block: 0px;
+    font-family: Paytone One;
+}
+.title > h1:first-child{
+    color: #FFE999;
+}
+.title >h1:last-child{
+    color: #FFFFFF;
+}
+.links{
+    display: inline;
+    font-size: 30px;
+    margin-left: 10em;
+}
+.links > ul{
+    list-style: none;
+    display: inline;
+    margin-block: 0px;
+}
+.links > ul > li{
+    text-align: center;
+    display: inline;
+    font-family: Abel;
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+.links > ul > li:first-child{
+    background: #ffe999;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: black;
+}
+.search{
+    display: inline;
+}
+.search > img{
+    width: 50px;
+    display: inline;
+    margin-left: 21em;
+}
+.better-health > img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 300px;
+    width: 300px;
+}
+.main-body{
+    background-color: #EFD2B5;
+;
+}
+.knowledge > img{
+    padding: 20px;
+    float: left;
+    height: 227px;
+    width: 202px;
+}
+.knowledge > h2{
+    font-family: Righteous;
+    margin-bottom: -10px;
+}
+.knowledge > p{
+    display: inline-block;
+    width: 300px;
+    font-family: Rhodium Libre;
+}
+.training > img{
+    padding: 20px;
+    float: left;
+    height: 227px;
+    width: 202px;
+}
+.training > h2{
+    font-family: Righteous;
+    margin-bottom: -10px;
+}
+.training > p{
+    display: left;
+    width: 300px;
+    font-family: Rhodium Libre;
+}
+.wellness > img{
+    padding: 20px;
+    float: left;
+    height: 227px;
+    width: 202px;
+}
+.wellness > h2{
+    font-family: Righteous;
+    margin-bottom: -10px;
+}
+.wellness > p{
+    display: inline-block;
+    width: 300px;
+    font-family: Rhodium Libre;
+}
