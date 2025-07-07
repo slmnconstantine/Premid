@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Great+Vibes&family=Paytone+One&family=Rhodium+Libre&family=Alike+Angular&family=Glass+Antiqua&family=Righteous&display=swap');
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+.header {
+    background: #B09464;
+    padding: 5px;
+}
+.title{
+    display: inline;
+}
+.title > h1{
+    display: inline;
+    font-size: 60px;
+    margin-block: 0px;
+    font-family: Paytone One;
+}
+.title > h1:first-child{
+    color: #FFE999;
+}
+.title >h1:nth-child(2){
+    color: #FFFFFF;
+}
+.links{
+    display: inline;
+    font-size: 36px;
+    margin-left: 20em;
+}
+.links > ul{
+    list-style: none;
+    display: inline;
+}
+.links > ul > li{
+    text-align: center;
+    display: inline;
+    font-family: Abel;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    margin-left: 60px;
+}
+.links > ul > li:first-child{
+    background: #ffe999;
+    padding: 50px 20px 21px 20px;
+    color: black;
+}
+.search{
+    display: inline;
+}
+.search > img{
+    width: 50px;
+    display: inline;
+    margin-left: 25em;
+}
+.better-health > img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 758px;
+    width: 979px;
+}
+.main-body{
+    background-color: #EFD2B5;
+    text-align: center;
+    padding: 60px 40px 0px 40px;
+}
+.content-column{
+    display: inline-block;
+    width: 55%;
+    text-align: left;
+    margin-right: 200px;
+    padding: 20px 0px;
+}
+.content{
+    margin-bottom: 50px;
+    padding: 0px; 
+    overflow: hidden;
+}
+.content > img {
+    float: left; 
+    margin-right: 20px;
+}
+.content > h2{
+    font-size: 48px;
+    font-family: Righteous;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 5px;
+
+}
+.content > p{
+    font-size: 26px;  
+    font-family: Rhodium Libre;
+    font-weight: 400;
+    color: #000000;
+    line-height: 1.6; 
+}
+.trends-column {
+    display: inline-block; 
+    width: 20%;
+    height: 30%;
+    padding: 0;
+    text-align: center;
+    background-color: #FFF8DC;
+    padding: 20px 15px 0px;
+}
+.trends-column h3 {
+    font-size: 45px;
+    font-weight: 400;
+    font-family: Righteous;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 60px;
+    margin: -60px auto 20px auto;
+    width: 200px;
+    display: block;
+    background-color: #B09464;
+}
+.trend > h2 {
+    font-family: Rhodium Libre;
+    font-size: 40px;
+    font-weight: 400; 
+    color: #000000;
+    margin-left: -200px;
+    margin-block: 0;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+.trend > p {
+    font-family: Rhodium Libre;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 5px;
+}
+.quote-section {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #FFF8DC;
+    color: #8D3409;
+}
+.breathe-logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    height: 25%;
+    margin-right: 100px;
+}
+.health-quote {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Great Vibes;
+    font-size: 150px;
+    max-width: 1000px;
+    line-height: 130%;
+    margin: 0;
+}
+.health-quote > .health-word {
+    display: inline;
+    font-family: Glass Antiqua;
+    font-size: 160px;
+    font-weight: 400;
+    color: #8D3409;
+    line-height: 100%;
+}
+.footer {
+    font-family: Abel;
+    background-color: #B09464;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+    font-size: 36px;
+}
